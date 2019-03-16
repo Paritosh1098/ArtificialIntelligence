@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Search:jar">
+    <output-path>$USER_HOME$/Desktop/ArtificialIntelligence/HW1</output-path>
+    <root id="archive" name="Search.jar">
+      <element id="module-output" name="Search" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,120 @@
+Problem ==>    D [S4.0, A5.0, E2.0]F [E4.0, G3.0]E [B5.0, D2.0, F4.0]B [A4.0, C4.0, E5.0]C [B4.0]G [F3.0]A [S3.0, B4.0, D5.0]S [A3.0, D4.0]
+Breadth First Search
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS><BAS>]
+B               [<BAS><EDS>]
+E               [<EDS><CBAS>]
+C               [<CBAS><FEDS>]
+F               [<FEDS>]
+G               [<GFEDS>]
+Solution Found!
+
+
+
+Depth First Search
+Node Visited    Queue Status
+S               [<S>]
+A               [<DS><AS>]
+B               [<DS><BAS>]
+C               [<DS><EBAS><CBAS>]
+E               [<DS><EBAS>]
+F               [<DS><FEBAS>]
+G               [<DS><GFEBAS>]
+Solution Found!
+
+
+
+ Uniform Cost Search
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS><BAS>]
+E               [<EDS><BAS>]
+B               [<BAS><FEDS>]
+F               [<FEDS><CBAS>]
+C               [<CBAS><GFEDS>]
+G               [<GFEDS>]
+Solution Found!
+
+
+
+ Depth Limited Search
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS><BAS>]
+B               [<BAS><EDS>]
+E               [<EDS>]
+
+
+
+ Iterative Depth Limited Search
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS>]
+=========
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS><BAS>]
+B               [<BAS><EDS>]
+E               [<EDS>]
+=========
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS><BAS>]
+B               [<BAS><EDS>]
+E               [<EDS><CBAS>]
+C               [<CBAS><FEDS>]
+F               [<FEDS>]
+=========
+Node Visited    Queue Status
+S               [<S>]
+A               [<AS><DS>]
+D               [<DS><BAS>]
+B               [<BAS><EDS>]
+E               [<EDS><CBAS>]
+C               [<CBAS><FEDS>]
+F               [<FEDS>]
+G               [<GFEDS>]
+Solution Found!
+
+
+
+ Greedy Search
+Node Visited    Queue Status
+S               [<S>]
+D               [<AS><DS>]
+E               [<AS><EDS>]
+F               [<AS><BEDS><FEDS>]
+G               [<AS><BEDS><GFEDS>]
+Solution Found!
+
+
+
+ Astar Search
+Node Visited    Queue Status
+S               [<S>]
+D               [<AS><DS>]
+E               [<AS><EDS>]
+F               [<AS><BEDS><FEDS>]
+G               [<AS><BEDS><GFEDS>]
+Solution Found!
+
+
+
+ Beam Search
+Node Visited    Queue Status
+S               [<S>]
+D               [<DS><AS>]
+A               [<AS><EDS>]
+E               [<EDS><BAS>]
+B               [<BAS><FEDS>]
+F               [<FEDS><CBAS>]
+C               [<CBAS><GFEDS>]
+G               [<GFEDS>]
+Solution Found!
