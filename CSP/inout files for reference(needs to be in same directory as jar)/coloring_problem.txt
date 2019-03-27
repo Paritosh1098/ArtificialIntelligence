@@ -1,0 +1,28 @@
+##### - variables
+W 1
+N 1
+A 1
+Q 1
+S 1
+V 1
+T 1
+##### - values
+r
+g
+b
+##### - deadline constraint
+22
+##### - unary inclusive
+##### - unary exclusive
+##### - binary equals
+##### - binary not equals
+A Q
+A S
+Q S
+A V
+S V
+W N
+W A
+N A
+N Q
+##### - binary not simultaneous
